@@ -80,10 +80,18 @@
         </ul>
 
         <div class="bg-gray-100 border border-gray-300 rounded-xl p-5 mb-6">
-          <div class="flex items-baseline gap-2">
-            <span class="text-3xl font-extrabold text-gray-700">310.00 EUR</span>
-            <span class="text-gray-400 text-lg font-semibold">/ 606.31 BGN</span>
-          </div>
+          <div class="flex flex-col gap-1">
+              <div class="flex items-baseline gap-2">
+                <span class="text-gray-500 font-medium">Цена на тон:</span>
+                <span class="text-3xl font-extrabold text-brand-orange">310.00 EUR</span>
+                <span class="text-gray-400 text-lg font-semibold">/ 618.63 лв.</span>
+              </div>
+              <div class="flex items-baseline gap-2">
+                <span class="text-gray-500 font-medium">Цена на брой:</span>
+                <span class="text-2xl font-bold text-gray-700">9.50 EUR</span>
+                <span class="text-gray-400 text-base font-semibold">/ 18.58 лв.</span>
+              </div>
+            </div>
           
         </div>
 
@@ -122,6 +130,8 @@
 <script>const toggleBtn=document.getElementById('mobile-toggle'),mobileMenu=document.getElementById('mobile-menu'),ham1=document.getElementById('ham1'),ham2=document.getElementById('ham2'),ham3=document.getElementById('ham3');toggleBtn.addEventListener('click',()=>{const o=mobileMenu.classList.toggle('open');toggleBtn.setAttribute('aria-expanded',o);if(o){ham1.style.cssText='transform:translateY(8px) rotate(45deg)';ham2.style.cssText='opacity:0';ham3.style.cssText='transform:translateY(-8px) rotate(-45deg)'}else{ham1.style.cssText='';ham2.style.cssText='';ham3.style.cssText=''}});function closeMobileMenu(){mobileMenu.classList.remove('open');toggleBtn.setAttribute('aria-expanded','false');ham1.style.cssText='';ham2.style.cssText='';ham3.style.cssText=''}const header=document.getElementById('site-header');window.addEventListener('scroll',()=>{header.classList.toggle('header-scrolled',window.scrollY>20)},{passive:true});</script>
 </body>
 </html>
+
+
 
 
 

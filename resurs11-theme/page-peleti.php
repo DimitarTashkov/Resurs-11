@@ -1,0 +1,289 @@
+<?php
+/* Template Name: Peleti */
+get_header();
+?>
+<!-- PAGE HERO -->
+<section class="relative pt-32 pb-20 bg-[#2c3036] text-white overflow-hidden">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/background essentials/bg2.jpg" alt="Дървесни пелети пред камина" class="absolute inset-0 w-full h-full object-cover opacity-25" loading="eager"/>
+  <div class="absolute inset-0 bg-gradient-to-br from-brand-dark via-brand-dark/80 to-brand-brown/40"></div>
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span class="inline-block bg-brand-orange/20 border border-brand-orange text-brand-orange text-sm font-semibold uppercase tracking-widest px-5 py-2 rounded-full mb-6">Каталог</span>
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-5">Нашите <span class="text-brand-orange">продукти</span></h1>
+    <p class="text-xl text-gray-300 max-w-2xl mx-auto">Пълен каталог на пелети, екобрикети и въглища. Изберете подходящия продукт за вашето отопление.</p>
+  </div>
+</section>
+
+
+<!-- BREADCRUMB -->
+<div class="bg-brand-ltGray border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <nav class="flex items-center gap-2 text-sm text-gray-500">
+      <a href="<?php echo home_url(); ?>" class="hover:text-brand-orange transition-colors">Начало</a>
+      <span>/</span>
+      <span class="text-brand-dark font-medium">Продукти</span>
+    </nav>
+  </div>
+</div>
+
+
+<!-- LAYOUT CONTAINER -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+  <div class="flex flex-col lg:flex-row gap-10">
+
+    <!-- SIDEBAR -->
+                                              <aside class="w-full lg:w-1/4 flex-shrink-0">
+        <div class="sticky top-28 bg-white p-6 rounded-2xl border border-gray-100 shadow-sm max-h-[calc(100vh-8rem)] overflow-y-auto">
+          <h3 class="text-xl font-bold text-brand-dark mb-4 pb-2 border-b border-gray-100">Продукти</h3>
+          <h4 class="font-bold text-brand-orange mb-2 mt-4 text-sm uppercase tracking-wider">Пелети</h4>
+          <nav class="flex flex-col gap-1 mb-4">
+            <a href="<?php echo home_url('/peleti-schnider/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети SCHNIDER</a>
+            <a href="<?php echo home_url('/peleti-holz/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети Holz</a>
+            <a href="<?php echo home_url('/peleti-ahira/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети AHIRA</a>
+            <a href="<?php echo home_url('/peleti-wolf/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети WOLF</a>
+            <a href="<?php echo home_url('/peleti-tron/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети TRON</a>
+            <a href="<?php echo home_url('/peleti-sun-a1/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети SUN class A1</a>
+            <a href="<?php echo home_url('/peleti-sun-a2/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети SUN class A2</a>
+            <a href="<?php echo home_url('/peleti-pjs/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети PJS</a>
+            <a href="<?php echo home_url('/peleti-kerpi/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети Kerpi</a>
+            <a href="<?php echo home_url('/peleti-brevis/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети Brevis</a>
+            <a href="<?php echo home_url('/peleti-eco/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Пелети ECO</a>
+          </nav>
+        </div>
+      </aside>
+
+    <!-- CONTENT -->
+    <main class="w-full lg:w-3/4 flex flex-col gap-16 pb-20">
+
+      <!-- ═══════════════════════════════════════════════
+           ПЕЛЕТИ – ДЪРВЕСНИ
+           ═══════════════════════════════════════════════ -->
+      <section id="all-pellets" class="scroll-mt-28">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+
+      <!-- SCHNIDER -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-schnider/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/schneider.png" alt="Дървесни пелети SCHNIDER" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети SCHNIDER</h3>
+            <span class="text-brand-orange font-extrabold text-lg">366.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 715.83 BGN</span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Висококачествени дървесни пелети с ниска влажност и висока калоричност. Идеални за всички видове пелетни камини и котли.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Калоричност: 4,7 – 5,0 kWh/kg</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Влажност: под 8%</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Чували 15 кг или палет</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-schnider/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- Holz -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-holz/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/peleti-holz.png" alt="Дървесни Пелети Holz" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети Holz</h3>
+            <span class="text-brand-orange font-extrabold text-lg">366.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 715.83 BGN</span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Висококачествени дървесни пелети с ниска влажност и висока калоричност. Идеални за всички видове пелетни камини и котли.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Калоричност: 4,7 – 5,0 kWh/kg</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Влажност: под 8%</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Чували 15 кг или палет</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-holz/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- AHIRA -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-ahira/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/peleti-ahira.png" alt="Дървесни Пелети AHIRA" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети AHIRA</h3>
+            <span class="text-brand-orange font-extrabold text-lg">320.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 625.87 BGN</span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Висококачествени дървесни пелети с ниска влажност и висока калоричност. Идеални за всички видове пелетни камини и котли.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Калоричност: 4,7 – 5,0 kWh/kg</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Влажност: под 8%</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Чували 15 кг или палет</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-ahira/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- WOLF -->
+        <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+          <a href="<?php echo home_url('/peleti-wolf/'); ?>" class="relative overflow-hidden h-56 block">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/products/wolf.png" alt="Дървесни пелети WOLF" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+            <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+          </a>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-xl text-brand-dark">Пелети WOLF</h3>
+              <span class="text-brand-orange font-extrabold text-lg">310.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 606.31 BGN</span></span></span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Сертифицирани по ENplus стандарт. Минимално количество пепел и равномерно горене. Подходящи за автоматични пелетни камини.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>ENplus сертификат</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Пепел: под 0,5%</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Равномерно горене</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-wolf/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- PJS -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-pjs/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/pjs.png" alt="Дървесни пелети PJS" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети PJS</h3>
+            <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Надежден избор за ежедневно отопление. Висока калоричност и стабилно качество през целия сезон.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Чували 15 кг</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Налични на палети</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-pjs/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- TRON -->
+        <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+          <a href="<?php echo home_url('/peleti-tron/'); ?>" class="relative overflow-hidden h-56 block">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/products/tron.png" alt="Дървесни пелети TRON" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+            <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+          </a>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-xl text-brand-dark">Пелети TRON</h3>
+              <span class="text-brand-orange font-extrabold text-lg">310.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 606.31 BGN</span></span></span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Съотношение цена-качество на високо ниво. Произведени от 100% дървесина без добавки.</p>
+          <a href="<?php echo home_url('/peleti-tron/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- ECO -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-eco/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/eco.png" alt="Дървесни пелети ECO" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети ECO</h3>
+            <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Екологични дървесни пелети с нисък въглероден отпечатък. Подходящи за екологично съзнателни клиенти.</p>
+          <a href="<?php echo home_url('/peleti-eco/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- SUN class A1 -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+          <a href="<?php echo home_url('/peleti-sun-a1/'); ?>" class="relative overflow-hidden h-56 block">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/products/sun-a1.png" alt="Пелети SUN class A1" onerror="this.src="<?php echo get_template_directory_uri(); ?>/images/products/schneider.png'" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+            <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+          </a>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-xl text-brand-dark">Пелети SUN class A1</h3>
+              <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+            </div>
+            <p class="text-gray-500 text-base leading-relaxed mb-4">Висококачествени дървесни пелети клас A1. Отлично горене с минимално количество пепел.</p>
+            <a href="<?php echo home_url('/peleti-sun-a1/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+          </div>
+        </article>
+
+      <!-- SUN class A2 -->
+        <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+          <a href="<?php echo home_url('/peleti-sun-a2/'); ?>" class="relative overflow-hidden h-56 block">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/products/sun-a2.png" alt="Пелети SUN class A2" onerror="this.src="<?php echo get_template_directory_uri(); ?>/images/products/schneider.png'" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+            <span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span>
+          </a>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-xl text-brand-dark">Пелети SUN class A2</h3>
+              <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+            </div>
+            <p class="text-gray-500 text-base leading-relaxed mb-4">Висококачествени дървесни пелети клас A2. Отлично горене с минимално количество пепел.</p>
+            <a href="<?php echo home_url('/peleti-sun-a2/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+          </div>
+        </article>
+
+      <!-- Kerpi -->
+        <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+          <a href="<?php echo home_url('/peleti-kerpi/'); ?>" class="relative overflow-hidden h-56 block">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/products/kerpi.png" alt="Слънчогледови пелети Kerpi" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+            <span class="absolute top-3 left-3 bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full">Слънчогледови</span>
+          </a>
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="font-bold text-xl text-brand-dark">Пелети Kerpi</h3>
+              <span class="bg-blue-100 text-blue-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Очакваме доставка!</span></span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Слънчогледови пелети с отлична калоричност. Подходящи за промишлени котли и топлоцентрали. Стабилно качество целогодишно.</p>
+          <ul class="space-y-2 mb-5">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Калоричност: 4,3 – 4,6 kWh/kg</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><svg class="w-4 h-4 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>За промишлени и битови котли</li>
+          </ul>
+          <a href="<?php echo home_url('/peleti-kerpi/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+      <!-- BREVIS -->
+      <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
+        <a href="<?php echo home_url('/peleti-brevis/'); ?>" class="relative overflow-hidden h-56 block">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/brevis.png" alt="Слънчогледови пелети BREVIS" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <span class="absolute top-3 left-3 bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full">Слънчогледови</span>
+        </a>
+        <div class="p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-bold text-xl text-brand-dark">Пелети BREVIS</h3>
+            <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+          </div>
+          <p class="text-gray-500 text-base leading-relaxed mb-4">Икономично решение с висока енергийна стойност. Налични в чували или насипно за големи количества.</p>
+          <a href="<?php echo home_url('/peleti-brevis/'); ?>" class="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orangeHov text-white font-semibold text-sm px-6 py-3 rounded-lg transition-colors">Виж повече <span>→</span></a>
+        </div>
+      </article>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+
+<!-- CTA -->
+<section class="py-20 bg-[#2c3036] text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Не намирате това, което търсите?</h2>
+    <p class="text-gray-400 text-lg mb-8 max-w-xl mx-auto">Свържете се с нас и ще ви помогнем да изберете най-подходящия продукт за вашия тип отопление и бюджет.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:+359877300310" class="bg-brand-orange hover:bg-brand-orangeHov text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors">📞 +359 877 300 310</a>
+      <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors">Изпрати запитване</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<?php get_footer(); ?>

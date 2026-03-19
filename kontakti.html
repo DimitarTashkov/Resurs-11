@@ -162,70 +162,12 @@
           </div>
 
         </div>
-
-        <!-- Google Maps placeholder -->
-        <div class="rounded-2xl overflow-hidden border border-gray-200 bg-white h-64 flex items-center justify-center text-gray-400 text-center p-8">
-          <div>
-            <span class="text-4xl block mb-3">📍</span>
-            <p class="text-lg font-semibold text-brand-dark mb-1">Google Maps</p>
-            <p class="text-sm">район Панчерево, ул. Околовръстен път No 338</p>
-          </div>
-        </div>
       </div>
 
-      <!-- Форма за запитване -->
+      <!-- Карта (на мястото на формата) -->
       <div>
-        <div class="bg-white rounded-2xl p-8 sm:p-10 border border-gray-100 shadow-sm">
-          <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-dark mb-2">Изпратете запитване</h2>
-          <p class="text-gray-500 text-base mb-8">Попълнете формата и ще се свържем с вас в рамките на работния ден.</p>
-
-          <!-- 
-            WordPress: Contact Form 7 / WPForms shortcode.
-            Прототипът показва визуалния вид на формата.
-          -->
-          <form action="#" method="POST" class="space-y-5" onsubmit="event.preventDefault(); alert('Формата е прототип. В WordPress ще се обработва от Contact Form 7 или WPForms.');">
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <div>
-                <label for="name" class="block text-sm font-semibold text-brand-dark mb-1.5">Вашето име *</label>
-                <input type="text" id="name" name="name" required placeholder="Иван Петров" class="w-full px-4 py-3 bg-brand-ltGray border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-brand-orange transition-colors" />
-              </div>
-              <div>
-                <label for="phone" class="block text-sm font-semibold text-brand-dark mb-1.5">Телефон *</label>
-                <input type="tel" id="phone" name="phone" required placeholder="+359 8XX XXX XXX" class="w-full px-4 py-3 bg-brand-ltGray border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-brand-orange transition-colors" />
-              </div>
-            </div>
-
-            <div>
-              <label for="email" class="block text-sm font-semibold text-brand-dark mb-1.5">Имейл (по желание)</label>
-              <input type="email" id="email" name="email" placeholder="ivan@example.com" class="w-full px-4 py-3 bg-brand-ltGray border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-brand-orange transition-colors" />
-            </div>
-
-            <div>
-              <label for="product" class="block text-sm font-semibold text-brand-dark mb-1.5">Какво ви интересува?</label>
-              <select id="product" name="product" class="w-full px-4 py-3 bg-brand-ltGray border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-brand-orange transition-colors">
-                <option value="">Изберете продукт...</option>
-                <option value="peleti-darv">🌲 Дървесни пелети</option>
-                <option value="peleti-slun">🌻 Слънчогледови пелети</option>
-                <option value="ekobriketi"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Екобрикети</option>
-                <option value="vaglishta"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 7.1 10c0-2 1.5-4 4.5-4 1.5 2 1.5 4 0 6-1-1.5-1.5-1.5-2.5 0-1 1.5.5 3.5 2 3.5 1.5 0 2-1 2-1z"/></svg> Въглища</option>
-                <option value="dostavka">🚛 Въпрос за доставка</option>
-                <option value="drug">Друго</option>
-              </select>
-            </div>
-
-            <div>
-              <label for="message" class="block text-sm font-semibold text-brand-dark mb-1.5">Съобщение *</label>
-              <textarea id="message" name="message" rows="5" required placeholder="Опишете какво количество ви е необходимо, адрес за доставка и други детайли..." class="w-full px-4 py-3 bg-brand-ltGray border border-gray-200 rounded-xl text-base focus:outline-none focus:ring-2 focus:ring-brand-orange focus:border-brand-orange transition-colors resize-y"></textarea>
-            </div>
-
-            <button type="submit" class="w-full bg-brand-orange hover:bg-brand-orangeHov text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors shadow-lg shadow-brand-orange/20">
-              Изпрати запитването
-            </button>
-
-            <p class="text-xs text-gray-400 text-center">Ще ви отговорим в рамките на работното време. 📞 За спешни въпроси – обадете се на <a href="tel:+359877300310" class="text-brand-orange hover:underline">+359 877 300 310</a></p>
-
-          </form>
+        <div class="w-full h-full min-h-[400px] sm:min-h-[500px] rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.914498705325!2d23.432124299999995!3d42.62076929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa874f7ab600cf%3A0x5344d7722eae925d!2z0KDQtdGB0YPRgNGBLTExINCV0J7QntCU!5e0!3m2!1sbg!2sbg!4v1773933619868!5m2!1sbg!2sbg" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
 

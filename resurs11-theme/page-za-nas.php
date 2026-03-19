@@ -158,17 +158,14 @@ get_header();
 </section>
 
 
-<!-- КАРТА / МЕСТОПОЛОЖЕНИЕ -->
-<section class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <span class="text-brand-orange text-sm font-bold uppercase tracking-widest">Локация</span>
-      <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mt-3 mb-5">Къде да ни намерите</h2>
-      <p class="text-gray-500 text-lg max-w-2xl mx-auto">Заповядайте на място в нашия склад или се свържете с нас за доставка.</p>
-    </div>
-    
-    <div class="w-full h-80 sm:h-96 rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.914498705325!2d23.432124299999995!3d42.62076929999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa874f7ab600cf%3A0x5344d7722eae925d!2z0KDQtdGB0YPRgNGBLTExINCV0J7QntCU!5e0!3m2!1sbg!2sbg!4v1773933619868!5m2!1sbg!2sbg" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- CTA -->
+<section class="py-20 bg-gradient-to-r from-brand-orange to-brand-orangeHov text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h3 class="text-3xl sm:text-4xl font-extrabold mb-4">Готови ли сте да поръчате?</h3>
+    <p class="text-xl text-white/80 mb-8">Свържете се с нас за цени и налични количества.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-white text-brand-orange font-bold text-lg px-10 py-4 rounded-xl hover:bg-brand-cream transition-colors shadow-lg">Изпратете запитване</a>
+      <a href="tel:+359877300310" class="bg-white/20 border-2 border-white text-white font-bold text-lg px-10 py-4 rounded-xl hover:bg-white/30 transition-colors">📞 Обадете се</a>
     </div>
   </div>
 </section>

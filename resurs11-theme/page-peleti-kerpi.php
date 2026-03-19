@@ -51,28 +51,33 @@ get_header();
             <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <img src="<?php echo get_template_directory_uri(); ?>/images/products/kerpi.png" alt="Пелети Kerpi" class="w-full h-[400px] lg:h-[500px] object-contain bg-white" />
             </div>
-            <div class="flex flex-col h-full">
-              <div class="mb-6">
-                <span class="inline-block bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4">🌻 Слънчогледови пелети</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-6">Пелети Kerpi</h2>
-                <p class="text-gray-500 text-lg leading-relaxed mb-8">Слънчогледови пелети с отлична калоричност. Подходящи за промишлени котли и топлоцентрали. Стабилно качество целогодишно. Икономичен вариант за отопление на големи площи.</p>
-              </div>
-              
-              
+            <div>
+              <span class="inline-block bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4">🌻 Слънчогледови пелети</span>
+              <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-4">Пелети Kerpi</h2>
 
-              <!-- Цена и бутони -->
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm mt-auto">
-                <div class="bg-red-50 border border-red-200 rounded-xl p-5 mb-2">
+              <div class="bg-white rounded-xl border border-gray-100 p-6 mb-6">
+                <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
+                <table class="w-full text-sm">
+                  <tbody>
+                    <tr class="border-b border-gray-100"><td class="py-3 text-gray-500 font-medium">Калоричност</td><td class="py-3 text-brand-dark font-semibold text-right">4,3 – 4,6 kWh/kg</td></tr>
+                    <tr class="border-b border-gray-100"><td class="py-3 text-gray-500 font-medium">Влажност</td><td class="py-3 text-brand-dark font-semibold text-right">под 10%</td></tr>
+                    <tr class="border-b border-gray-100"><td class="py-3 text-gray-500 font-medium">Пепел</td><td class="py-3 text-brand-dark font-semibold text-right">под 3%</td></tr>
+                    <tr><td class="py-3 text-gray-500 font-medium">Приложение</td><td class="py-3 text-brand-dark font-semibold text-right">Промишлени и битови котли</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="bg-red-50 border border-red-200 rounded-xl p-5 mb-6">
                 <div class="flex items-baseline gap-2 text-red-600">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
                   <span class="text-xl font-bold">Очакваме доставка!</span>
                 </div>
                 <p class="text-red-500 text-sm mt-2">В момента този продукт не е наличен. Очакваме нови доставки скоро.</p>
               </div>
-                <div class="flex flex-col sm:flex-row gap-4 mt-6">
-                  <button disabled class="bg-gray-300 text-gray-500 font-bold px-6 py-3 rounded-xl text-base cursor-not-allowed text-center">Изчерпано</button>
+
+              <div class="flex flex-col sm:flex-row gap-4">
+                <button disabled class="bg-gray-300 text-gray-500 font-bold px-6 py-3 rounded-xl text-base cursor-not-allowed text-center">Изчерпано</button>
                 <a href="tel:+359877300310" class="bg-white hover:bg-brand-ltGray border-2 border-gray-300 text-gray-600 font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">📞 Запитай за наличност</a>
-                </div>
               </div>
             </div>
           </div>
@@ -86,7 +91,7 @@ get_header();
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
             <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100"><div class="relative overflow-hidden h-48"><img src="<?php echo get_template_directory_uri(); ?>/images/products/brevis.png" alt="Пелети BREVIS" class="w-full h-full object-contain hover:scale-105 transition-transform duration-500" loading="lazy"/><span class="absolute top-3 left-3 bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-full">Слънчогледови</span></div><div class="p-5"><h3 class="font-bold text-lg text-brand-dark mb-2">Пелети BREVIS</h3><p class="text-gray-500 text-sm mb-4">Икономично решение с висока енергийна стойност.</p><a href="<?php echo home_url('/peleti-brevis/'); ?>" class="inline-flex items-center gap-2 text-brand-orange hover:text-brand-orangeHov font-semibold text-sm transition-colors">Виж повече →</a></div></article>
             <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100"><div class="relative overflow-hidden h-48"><img src="<?php echo get_template_directory_uri(); ?>/images/products/schneider.png" alt="Пелети SCHNIDER" class="w-full h-full object-contain hover:scale-105 transition-transform duration-500" loading="lazy"/><span class="absolute top-3 left-3 bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full">Дървесни</span></div><div class="p-5"><h3 class="font-bold text-lg text-brand-dark mb-2">Пелети SCHNIDER</h3><p class="text-gray-500 text-sm mb-4">Висококачествени дървесни пелети с ниска влажност.</p><a href="<?php echo home_url('/peleti-schnider/'); ?>" class="inline-flex items-center gap-2 text-brand-orange hover:text-brand-orangeHov font-semibold text-sm transition-colors">Виж повече →</a></div></article>
-            <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100"><div class="relative overflow-hidden h-48"><img src="<?php echo get_template_directory_uri(); ?>/images/products/ekobriketi slunchogled.png" alt="Екобрикет слънчогледова люспа" class="w-full h-full object-contain hover:scale-105 transition-transform duration-500" loading="lazy"/><span class="absolute top-3 left-3 bg-yellow-600 text-white text-xs font-bold px-3 py-1.5 rounded-full">Екобрикет</span></div><div class="p-5"><h3 class="font-bold text-lg text-brand-dark mb-2">Екобрикет слънчогледова люспа</h3><p class="text-gray-500 text-sm mb-4">Висока плътност, дълго горене, минимална пепел.</p><a href="<?php echo home_url('/ekobriket-slunshogled/'); ?>" class="inline-flex items-center gap-2 text-brand-orange hover:text-brand-orangeHov font-semibold text-sm transition-colors">Виж повече →</a></div></article>
+            <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100"><div class="relative overflow-hidden h-48"><img src="<?php echo get_template_directory_uri(); ?>/images/products/3100.jpg" alt="Екобрикет слънчогледова люспа" class="w-full h-full object-contain hover:scale-105 transition-transform duration-500" loading="lazy"/><span class="absolute top-3 left-3 bg-yellow-600 text-white text-xs font-bold px-3 py-1.5 rounded-full">Екобрикет</span></div><div class="p-5"><h3 class="font-bold text-lg text-brand-dark mb-2">Екобрикет слънчогледова люспа</h3><p class="text-gray-500 text-sm mb-4">Висока плътност, дълго горене, минимална пепел.</p><a href="<?php echo home_url('/ekobriket-slunshogled/'); ?>" class="inline-flex items-center gap-2 text-brand-orange hover:text-brand-orangeHov font-semibold text-sm transition-colors">Виж повече →</a></div></article>
           </div>
           <div class="mt-8 text-center"><a href="<?php echo home_url('/peleti/'); ?>" class="inline-flex items-center gap-2 bg-white hover:bg-brand-ltGray border-2 border-gray-200 text-brand-dark font-semibold px-6 py-3 rounded-xl transition-colors">← Обратно към всички продукти</a></div>
         </div>

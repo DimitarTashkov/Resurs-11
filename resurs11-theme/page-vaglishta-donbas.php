@@ -37,20 +37,16 @@ get_header();
       <!-- PRODUCT DETAIL -->
       <section class="bg-brand-cream rounded-2xl py-8">
         <div class="px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
         <img src="<?php echo get_template_directory_uri(); ?>/images/products/coal2.png" alt="Въглища Донбас в чували" class="w-full h-[400px] lg:h-[500px] object-contain bg-white" />
       </div>
-            <div class="flex flex-col h-full">
-              <div class="mb-6">
-                <span class="inline-block bg-gray-700 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 7.1 10c0-2 1.5-4 4.5-4 1.5 2 1.5 4 0 6-1-1.5-1.5-1.5-2.5 0-1 1.5.5 3.5 2 3.5 1.5 0 2-1 2-1z"/></svg> Въглища – Висококачествени</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-6">Въглища Донбас в чували</h2>
-                <p class="text-gray-500 text-lg leading-relaxed mb-8">Висококачествени въглища от Донбас, опаковани в удобни чували за лесно транспортиране и съхранение. Осигуряват мощна и продължителна топлина с калоричност над 7000 kcal. Минимално съдържание на пепел и сяра за по-чисто горене.</p>
-              </div>
-              
-              
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm overflow-x-auto mb-6">
-                <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
+      <div>
+        <span class="inline-block bg-gray-700 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 7.1 10c0-2 1.5-4 4.5-4 1.5 2 1.5 4 0 6-1-1.5-1.5-1.5-2.5 0-1 1.5.5 3.5 2 3.5 1.5 0 2-1 2-1z"/></svg> Въглища – Висококачествени</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-4">Въглища Донбас в чували</h2>
+
+        <div class="bg-white rounded-xl border border-gray-100 p-6 mb-6">
+          <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
           <table class="w-full text-sm">
             <tbody>
               <tr class="border-b border-gray-100"><td class="py-3 text-gray-500 font-medium">Произход</td><td class="py-3 text-brand-dark font-semibold text-right">Донбас</td></tr>
@@ -59,27 +55,31 @@ get_header();
               <tr><td class="py-3 text-gray-500 font-medium">Пепел</td><td class="py-3 text-brand-dark font-semibold text-right">Минимална</td></tr>
             </tbody>
           </table>
-              </div>
-              <div class="mb-8">
-                <h4 class="font-bold text-lg text-brand-dark mb-4">Основни предимства</h4>
-                <ul class="space-y-3">
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-gray-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Калоричност над 7000 kcal за максимална топлина</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-gray-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Удобни чували за лесно складиране</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-gray-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Минимална пепел и ниско съдържание на сяра</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-gray-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Доставка с наш транспорт до адрес</li>
-        </ul>
-              </div>
+        </div>
 
-              <!-- Цена и бутони -->
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm mt-auto">
-                <div class="text-gray-500 font-medium my-auto text-center md:text-left pt-2 pb-2">Свържете се с нас за актуални цени</div>
-                <div class="flex flex-col sm:flex-row gap-4 mt-6">
-                  <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-gray-700 hover:bg-gray-800 text-white font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">Поръчай сега</a>
-          <a href="tel:+359877300310" class="bg-white hover:bg-brand-ltGray border-2 border-gray-700 text-gray-700 font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">📞 Обади се</a>
-                </div>
+
+        <div class="bg-gray-100 border border-gray-300 rounded-xl p-5 mb-6">
+          <div class="flex flex-col gap-1">
+              <div class="flex items-baseline gap-2">
+                <span class="text-gray-500 font-medium">Цена на тон:</span>
+                <span class="text-3xl font-extrabold text-brand-orange">310.00 EUR</span>
+                <span class="text-gray-400 text-lg font-semibold">/ 606.27 лв.</span>
+              </div>
+              <div class="flex items-baseline gap-2">
+                <span class="text-gray-500 font-medium">Цена на брой:</span>
+                <span class="text-2xl font-bold text-gray-700">9.50 EUR</span>
+                <span class="text-gray-400 text-base font-semibold">/ 18.58 лв.</span>
               </div>
             </div>
-          </div>
+          
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-gray-700 hover:bg-gray-800 text-white font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">Поръчай сега</a>
+          <a href="tel:+359877300310" class="bg-white hover:bg-brand-ltGray border-2 border-gray-700 text-gray-700 font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">📞 Обади се</a>
+        </div>
+      </div>
+    </div>
         </div>
       </section>
 

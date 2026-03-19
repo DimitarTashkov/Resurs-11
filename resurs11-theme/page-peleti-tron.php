@@ -51,15 +51,11 @@ get_header();
             <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
               <img src="<?php echo get_template_directory_uri(); ?>/images/products/tron.png" alt="Дървесни пелети TRON" class="w-full h-[400px] lg:h-[500px] object-contain bg-white" />
             </div>
-            <div class="flex flex-col h-full">
-              <div class="mb-6">
-                <span class="inline-block bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4">🌲 Дървесни пелети</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-6">Пелети TRON</h2>
-                <p class="text-gray-500 text-lg leading-relaxed mb-8">Съотношение цена-качество на високо ниво. Произведени от 100% дървесина без добавки. TRON пелетите са перфектният избор за клиенти, които търсят качествен продукт на достъпна цена. Гарантирано чисто горене и минимална пепел.</p>
-              </div>
-              
-              
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm overflow-x-auto mb-6">
+            <div>
+              <span class="inline-block bg-brand-brown text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4">🌲 Дървесни пелети</span>
+              <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-4">Пелети TRON</h2>
+
+              <div class="bg-white rounded-xl border border-gray-100 p-6 mb-6">
                 <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
                 <table class="w-full text-sm">
                   <tbody>
@@ -70,19 +66,9 @@ get_header();
                   </tbody>
                 </table>
               </div>
-              <div class="mb-8">
-                <h4 class="font-bold text-lg text-brand-dark mb-4">Основни предимства</h4>
-                <ul class="space-y-3">
-                <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Произведени от 100% чиста дървесина</li>
-                <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Без химически добавки или лепила</li>
-                <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Отлично съотношение цена-качество</li>
-                <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-brand-orange flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Собствен транспорт с кран</li>
-              </ul>
-              </div>
 
-              <!-- Цена и бутони -->
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm mt-auto">
-                <div class="grid grid-cols-2 gap-4 mb-2">
+
+              <div class="grid grid-cols-2 gap-4 mb-6">
   <div class="bg-brand-orange/5 rounded-xl p-4 border border-brand-orange/20">
     <p class="text-sm text-gray-500 mb-1">Цена на тон</p>
     <div class="flex items-baseline gap-1">
@@ -97,10 +83,11 @@ get_header();
       <span class="text-gray-400 text-sm font-semibold">/ 9.78 BGN</span>
     </div>
   </div>
-                <div class="flex flex-col sm:flex-row gap-4 mt-6">
-                  <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-brand-orange hover:bg-brand-orangeHov text-white font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">Поръчай сега</a>
+</div>
+
+              <div class="flex flex-col sm:flex-row gap-4">
+                <a href="<?php echo home_url('/kontakti/'); ?>" class="bg-brand-orange hover:bg-brand-orangeHov text-white font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">Поръчай сега</a>
                 <a href="tel:+359877300310" class="bg-white hover:bg-brand-ltGray border-2 border-brand-orange text-brand-orange font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">📞 Обади се</a>
-                </div>
               </div>
             </div>
           </div>

@@ -56,13 +56,13 @@ get_header();
       <!-- Донбас -->
       <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
         <a href="<?php echo home_url('/vaglishta-donbas/'); ?>" class="relative overflow-hidden h-56 block">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/products/coal2.png" alt="Въглища Донбас" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src="<?php echo get_template_directory_uri(); ?>/images/products/kerpi.png'" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/uhlishte.png" alt="Въглища Донбас" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.src="<?php echo get_template_directory_uri(); ?>/images/products/kerpi.png'" />
           <span class="absolute top-3 left-3 bg-[#2c3036] text-white text-xs font-bold px-3 py-1.5 rounded-full">Антрацитни</span>
         </a>
         <div class="p-6">
           <div class="flex items-center justify-between mb-2">
             <h3 class="font-bold text-xl text-brand-dark">Въглища Донбас</h3>
-            <span class="text-brand-orange font-extrabold text-lg">310.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 618.63 лв.</span></span>
+            <span class="text-brand-orange font-extrabold text-lg">310.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 606.27 лв.</span></span>
           </div>
           <p class="text-gray-500 text-base leading-relaxed mb-4">Селектирани висококалорични въглища от басейна Донбас. Опаковани в удобни за пренасяне и съхранение чували от 25 кг.</p>
           <ul class="space-y-2 mb-5">

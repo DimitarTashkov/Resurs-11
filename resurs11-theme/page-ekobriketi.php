@@ -36,8 +36,8 @@ get_header();
           <h3 class="text-xl font-bold text-brand-dark mb-4 pb-2 border-b border-gray-100">Продукти</h3>
           <h4 class="font-bold text-brand-orange mb-2 mt-4 text-sm uppercase tracking-wider">Екобрикети</h4>
           <nav class="flex flex-col gap-1 mb-4">
-            <a href="<?php echo home_url('/ekobriket-ruf/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Дървесен екобрикет RUF</a>
             <a href="<?php echo home_url('/ekobriket-slunshogled/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Екобрикет слънчогледова люспа</a>
+            <a href="<?php echo home_url('/ekobriket-ruf/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Дървесен екобрикет RUF</a>
             <a href="<?php echo home_url('/ekobriket-resurs/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Екобрикет Ресурс</a>
           </nav>
         </div>
@@ -58,13 +58,13 @@ get_header();
       <!-- Слънчогледова люспа -->
       <article class="product-card bg-white rounded-2xl overflow-hidden border border-gray-100">
         <a href="<?php echo home_url('/ekobriket-slunshogled/'); ?>" class="relative overflow-hidden h-56 block">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/products/ekobriketi slunchogled.png" alt="Екобрикет от слънчогледова люспа" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/products/3100.jpg" alt="Екобрикет от слънчогледова люспа" class="w-full h-full object-contain bg-white hover:scale-105 transition-transform duration-500" loading="lazy"/>
           <span class="absolute top-3 left-3 bg-yellow-600 text-white text-xs font-bold px-3 py-1.5 rounded-full">Слънчогледова люспа</span>
         </a>
         <div class="p-6">
           <div class="flex items-center justify-between mb-2">
             <h3 class="font-bold text-xl text-brand-dark">Екобрикет слънчогледова люспа</h3>
-            <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+            <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпан</span>
           </div>
           <p class="text-gray-500 text-base leading-relaxed mb-4">Произведен от компресирана слънчогледова люспа. Висока плътност, дълго горене, минимално количество пепел. Отличен за котли на твърдо гориво.</p>
           <ul class="space-y-2 mb-5">
@@ -85,7 +85,7 @@ get_header();
         <div class="p-6">
           <div class="flex items-center justify-between mb-2">
             <h3 class="font-bold text-xl text-brand-dark">Дървесен екобрикет RUF</h3>
-              <span class="text-brand-orange font-extrabold text-lg">210.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 400.95 лв.</span></span>
+              <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
           </div>
           <p class="text-gray-500 text-base leading-relaxed mb-4">Пресован правоъгълен брикет от дървесни стърготини. Горят като дърва – подходящи за камини, печки и котли на твърдо гориво.</p>
           <ul class="space-y-2 mb-5">
@@ -106,7 +106,7 @@ get_header();
           <div class="p-6">
             <div class="flex items-center justify-between mb-2">
               <h3 class="font-bold text-xl text-brand-dark">Екобрикет Ресурс</h3>
-              <span class="bg-gray-100 text-red-600 font-bold px-3 py-1 rounded-lg text-sm uppercase tracking-wide">Изчерпана наличност!</span>
+              <span class="text-brand-orange font-extrabold text-lg">210.00 EUR<span class="text-gray-400 text-sm font-semibold ml-1">/ 410.68 лв.</span></span>
             </div>
             <p class="text-gray-500 text-base leading-relaxed mb-4">Екобрикети от дървесни стърготини – продължително горене, висока калоричност и минимално количество пепел. Идеални за котли и камини.</p>
             <ul class="space-y-2 mb-5">

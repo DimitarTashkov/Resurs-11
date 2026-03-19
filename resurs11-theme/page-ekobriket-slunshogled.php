@@ -26,8 +26,8 @@ get_header();
           <h3 class="text-xl font-bold text-brand-dark mb-4 pb-2 border-b border-gray-100">Продукти</h3>
           <h4 class="font-bold text-brand-orange mb-2 mt-4 text-sm uppercase tracking-wider">Екобрикети</h4>
           <nav class="flex flex-col gap-1 mb-4">
-            <a href="<?php echo home_url('/ekobriket-ruf/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Дървесен екобрикет RUF</a>
             <a href="<?php echo home_url('/ekobriket-slunshogled/'); ?>" class="px-3 py-2 rounded-lg text-brand-orange bg-brand-ltGray font-bold text-sm transition-colors">Екобрикет слънчогледова люспа</a>
+            <a href="<?php echo home_url('/ekobriket-ruf/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Дървесен екобрикет RUF</a>
             <a href="<?php echo home_url('/ekobriket-resurs/'); ?>" class="px-3 py-2 rounded-lg text-gray-600 hover:text-brand-orange hover:bg-brand-ltGray text-sm font-medium transition-colors">Екобрикет Ресурс</a>
           </nav>
         </div>
@@ -39,20 +39,16 @@ get_header();
       <!-- PRODUCT DETAIL -->
       <section class="bg-brand-cream rounded-2xl py-8">
         <div class="px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/products/ekobriketi slunchogled.png" alt="Екобрикет от слънчогледова люспа" class="w-full h-[400px] lg:h-[500px] object-contain bg-white" />
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <div class="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/products/3100.jpg" alt="Екобрикет от слънчогледова люспа" class="w-full h-[400px] lg:h-[500px] object-contain bg-white" />
       </div>
-            <div class="flex flex-col h-full">
-              <div class="mb-6">
-                <span class="inline-block bg-yellow-600 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Екобрикети – Слънчогледова люспа</span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-6">Екобрикет от слънчогледова люспа</h2>
-                <p class="text-gray-500 text-lg leading-relaxed mb-8">Екобрикетите от слънчогледова люспа са екологично чисто гориво с висока плътност, осигуряващо продължително и равномерно горене. Идеални за камини, печки и котли на твърдо гориво. Минимална пепел и отлична калоричност.</p>
-              </div>
-              
-              
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm overflow-x-auto mb-6">
-                <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
+      <div>
+        <span class="inline-block bg-yellow-600 text-white text-xs font-bold px-3 py-1.5 rounded-full mb-4"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg> Екобрикети – Слънчогледова люспа</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark mb-4">Екобрикет от слънчогледова люспа</h2>
+
+        <div class="bg-white rounded-xl border border-gray-100 p-6 mb-6">
+          <h3 class="font-bold text-lg text-brand-dark mb-4">Технически характеристики</h3>
           <table class="w-full text-sm">
             <tbody>
               <tr class="border-b border-gray-100"><td class="py-3 text-gray-500 font-medium">Материал</td><td class="py-3 text-brand-dark font-semibold text-right">Слънчогледова люспа</td></tr>
@@ -61,33 +57,23 @@ get_header();
               <tr><td class="py-3 text-gray-500 font-medium">Пепел</td><td class="py-3 text-brand-dark font-semibold text-right">Минимална</td></tr>
             </tbody>
           </table>
-              </div>
-              <div class="mb-8">
-                <h4 class="font-bold text-lg text-brand-dark mb-4">Основни предимства</h4>
-                <ul class="space-y-3">
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-yellow-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Висока плътност за дълготрайно горене</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-yellow-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Минимално количество пепел</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-yellow-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Екологично чисто гориво</li>
-          <li class="flex items-center gap-3 text-gray-600"><svg class="w-5 h-5 text-yellow-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Подходящи за камини, печки и котли</li>
-        </ul>
-              </div>
+        </div>
 
-              <!-- Цена и бутони -->
-              <div class="bg-white rounded-xl border border-gray-100 p-6 shadow-sm mt-auto">
-                <div class="bg-red-50 border border-red-200 rounded-xl p-5 mb-2">
+
+        <div class="bg-red-50 border border-red-200 rounded-xl p-5 mb-6">
           <div class="flex items-baseline gap-2 text-red-600">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
             <span class="text-xl font-bold">Изчерпана наличност!</span>
           </div>
           <p class="text-red-500 text-sm mt-2">В момента този продукт не е наличен. Очакваме нови доставки скоро.</p>
         </div>
-                <div class="flex flex-col sm:flex-row gap-4 mt-6">
-                  <button disabled class="bg-gray-300 text-gray-500 font-bold px-6 py-3 rounded-xl text-base cursor-not-allowed text-center">Изчерпано</button>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button disabled class="bg-gray-300 text-gray-500 font-bold px-6 py-3 rounded-xl text-base cursor-not-allowed text-center">Изчерпано</button>
           <a href="tel:+359877300310" class="bg-white hover:bg-brand-ltGray border-2 border-gray-300 text-gray-600 font-bold px-6 py-3 rounded-xl text-base transition-colors text-center">📞 Запитай за наличност</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
+    </div>
         </div>
       </section>
 

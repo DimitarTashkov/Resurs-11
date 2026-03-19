@@ -191,16 +191,16 @@
             <div
               class="dropdown-menu absolute top-full left-0 mt-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto translate-y-2 group-hover:translate-y-0 z-50">
               <div class="py-2 px-1">
-                <a href="<?php echo home_url('/peleti/'); ?>"
+                <a href="<?php echo home_url('/katalog/peleti/'); ?>"
                   class="flex items-center gap-2 px-4 py-2.5 text-brand-dark hover:bg-brand-ltGray hover:text-brand-orange rounded-lg text-sm font-medium transition-colors">🌲
                   Пелети</a>
-                <a href="<?php echo home_url('/ekobriketi/'); ?>"
+                <a href="<?php echo home_url('/katalog/ekobriketi/'); ?>"
                   class="flex items-center gap-2 px-4 py-2.5 text-brand-dark hover:bg-brand-ltGray hover:text-brand-orange rounded-lg text-sm font-medium transition-colors"><svg
                     class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
                     viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg> Екобрикети</a>
-                <a href="<?php echo home_url('/vaglishta/'); ?>"
+                <a href="<?php echo home_url('/katalog/vaglishta/'); ?>"
                   class="flex items-center gap-2 px-4 py-2.5 text-brand-dark hover:bg-brand-ltGray hover:text-brand-orange rounded-lg text-sm font-medium transition-colors"><svg
                     class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
                     viewBox="0 0 24 24">
@@ -241,16 +241,16 @@
         <a href="<?php echo home_url(); ?>"
           class="px-4 py-3 text-gray-700 hover:text-brand-orange font-semibold rounded-lg hover:bg-brand-ltGray transition-colors"
           onclick="closeMobileMenu()">Начало</a>
-        <a href="<?php echo home_url('/peleti/'); ?>"
+        <a href="<?php echo home_url('/katalog/peleti/'); ?>"
           class="px-4 py-3 text-gray-700 hover:text-brand-orange font-semibold rounded-lg hover:bg-brand-ltGray transition-colors"
           onclick="closeMobileMenu()">🌲 Пелети</a>
-        <a href="<?php echo home_url('/ekobriketi/'); ?>"
+        <a href="<?php echo home_url('/katalog/ekobriketi/'); ?>"
           class="px-4 py-3 text-gray-700 hover:text-brand-orange font-semibold rounded-lg hover:bg-brand-ltGray transition-colors"
           onclick="closeMobileMenu()"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor"
             stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg> Екобрикети</a>
-        <a href="<?php echo home_url('/vaglishta/'); ?>"
+        <a href="<?php echo home_url('/katalog/vaglishta/'); ?>"
           class="px-4 py-3 text-gray-700 hover:text-brand-orange font-semibold rounded-lg hover:bg-brand-ltGray transition-colors"
           onclick="closeMobileMenu()"><svg class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor"
             stroke-width="2" viewBox="0 0 24 24">

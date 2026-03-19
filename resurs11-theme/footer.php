@@ -28,19 +28,19 @@
         <div>
           <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Продукти</h4>
           <ul class="space-y-2.5 text-sm">
-            <li><a href="<?php echo home_url('/peleti/'); ?>" class="hover:text-brand-orange transition-colors">🌲 Дървесни пелети</a></li>
-            <li><a href="<?php echo home_url('/peleti/'); ?>" class="hover:text-brand-orange transition-colors">🌻 Слънчогледови пелети</a></li>
-            <li><a href="<?php echo home_url('/ekobriketi/'); ?>" class="hover:text-brand-orange transition-colors"><svg
+            <li><a href="<?php echo home_url('/katalog/peleti/'); ?>" class="hover:text-brand-orange transition-colors">🌲 Дървесни пелети</a></li>
+            <li><a href="<?php echo home_url('/katalog/peleti/'); ?>" class="hover:text-brand-orange transition-colors">🌻 Слънчогледови пелети</a></li>
+            <li><a href="<?php echo home_url('/katalog/ekobriketi/'); ?>" class="hover:text-brand-orange transition-colors"><svg
                   class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg> Екобрикети</a></li>
-            <li><a href="<?php echo home_url('/ekobriketi/'); ?>" class="hover:text-brand-orange transition-colors"><svg
+            <li><a href="<?php echo home_url('/katalog/ekobriketi/'); ?>" class="hover:text-brand-orange transition-colors"><svg
                   class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg> Дървесен брикет RUF</a></li>
-            <li><a href="<?php echo home_url('/vaglishta/'); ?>" class="hover:text-brand-orange transition-colors"><svg
+            <li><a href="<?php echo home_url('/katalog/vaglishta/'); ?>" class="hover:text-brand-orange transition-colors"><svg
                   class="w-4 h-4 inline-block -mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
                   viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round"

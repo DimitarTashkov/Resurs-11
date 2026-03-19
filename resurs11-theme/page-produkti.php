@@ -63,7 +63,19 @@ get_header();
               <div class="flex items-center justify-between mb-4 flex-wrap gap-2">
                 <h3 class="font-bold text-xl text-brand-dark w-full"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <?php if($cena_na_ton): ?>
-                <span class="text-brand-orange font-extrabold text-lg mt-2"><?php echo esc_html($cena_na_ton); ?></span>
+                <div class="mt-2 flex items-baseline flex-wrap gap-1">
+                    <?php
+                    if (strpos($cena_na_ton, '/') !== false) {
+                        $parts = explode('/', $cena_na_ton);
+                        $main_price = trim($parts[0]);
+                        $bg_price = trim($parts[1]);
+                        echo '<span class="text-xl font-extrabold text-[#e85c0d]">' . esc_html($main_price) . '</span>';
+                        echo '<span class="text-xs font-bold text-gray-400 ml-1">/ ' . esc_html($bg_price) . '</span>';
+                    } else {
+                        echo '<span class="text-xl font-extrabold text-[#e85c0d]">' . esc_html($cena_na_ton) . '</span>';
+                    }
+                    ?>
+                </div>
                 <?php endif; ?>
               </div>
               <div class="flex-grow mt-auto pt-4">
